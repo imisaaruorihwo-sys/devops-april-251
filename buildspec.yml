@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      python: 3.10 #IT WILL INSTALL PYTHON ON THE ENVIRONMENT (EC2)
+      python: 3.9 #IT WILL INSTALL PYTHON ON THE ENVIRONMENT (EC2)
     commands:
       - echo === INSTALL YOUR PACKAGES HERE!!! ===
         
