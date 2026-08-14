@@ -22,7 +22,7 @@ phases:
   post_build:
     commands:
       - echo === ACTION TO TAKE WHEN BUILD IS COMPLETE ===
-      - echo Build completed at 'date'
+      - echo Build completed at `date`
     
 artifacts:
   files:
